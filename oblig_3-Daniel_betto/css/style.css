@@ -11,14 +11,14 @@ grid-template-areas:"header header header"
                     "footer footer footer";
 
 
-grid-template-columns: repeat(4, 1fr);
+grid-template-columns: repeat(3, 1fr);
 grid-template-rows: 7fr;
 }
 
 header{
     display:flex;
     justify-content: space-around;
-    grid-column: 1/5;
+    grid-column: 1/4;
     flex-direction: row-reverse;
     
 }
@@ -183,20 +183,9 @@ nav ul a{
 #text-ikon{
     display:flex;
     column-gap: 600px;
-    font-size:110px;    
+    font-size:12px;    
 
 }
-#yellow{
-    flex-wrap:nowrap;
-    height:126rem;
-    display:flex;
-    justify-content: center;
-    background-color:#9E9219 ;
-    width:153rem;
-    padding:3rem;
-    flex-direction:row;
-}
-
 
 #shoe-name{
     font-size:50px;
@@ -228,7 +217,7 @@ nav ul a{
 #first-img{
     display: flex;
     position: relative;
-    width:50rem;
+    width:rem;
     height:36rem;
 }
 
@@ -316,7 +305,7 @@ nav ul a{
     flex-direction: column;
     flex-wrap:wrap;
     grid-area: main;
-    grid-column:3/5;
+    grid-column:1/2;
     display:inline-block;
     margin-top:50rem;
 }
@@ -466,11 +455,15 @@ img{
         grid-template-areas: "header"
                               "main"
                               "footer";
+        overflow: auto;
     }
-#yellow{
-    display:flex;
-    flex-direction: column;
-    width:75rem;
+    #grid-header{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto auto
+    
+    }
+
 }
     .articles{
     display:flex;
@@ -479,6 +472,7 @@ img{
 
 header{
     grid-area: header;
+    grid-column: 1/4;
 }
 main{
     grid-area:main;
