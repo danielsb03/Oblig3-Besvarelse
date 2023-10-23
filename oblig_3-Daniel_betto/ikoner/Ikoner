@@ -1,0 +1,38 @@
+Alle default farger skal være hvite
+
+
+Her er ikonen for hamburger knappen
+<i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+
+Her er ikonen for logg inn ikonet
+<i class="fa-solid fa-user" style="color: #ffffff;"></i>
+
+Her er ikonen for forstøyelses glasset
+<i class="fa-regular fa-magnifying-glass" style="color:;"></i>
+
+Her er ikonen for handlekurv ikonet
+<i class="fa-regular fa-cart-shopping" style="color: #ffffff;"></i>
+
+Her er ikonen for pluss+ ikonet
+<i class="fa-solid fa-plus" style="color:black;"></i>
+
+Her er ikonen for minus- ikonet
+<i class="fa-solid fa-minus" style="color: #ffffff;"></i>
+
+Her er ikonen for pil ned ikonet V 
+<i class="fa-solid fa-angle-down" style="color: #ffffff;"></i>
+
+Her er ikonen for pill opp ikonet /\
+<i class="fa-solid fa-angle-down fa-rotate-180" style="color: #ffffff;"></i>
+
+Her er ikonen for facebook
+<i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+
+Her er ikonen for twitter
+<i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+
+Her er ikonen for instagram
+<i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+
+Her er ikonen for youtube
+<i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
